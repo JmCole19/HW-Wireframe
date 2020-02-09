@@ -19,11 +19,17 @@ Footer {
 }
 
 article {
+    padding: 5px;
+    border: 5px #777;
+    width: 450px;
+    height: 165px;
+    overflow: auto;
     color: #ebebeb;
     background: #777;
-    width: 400px;
     text-align: center;
-    height: 300px;
+    position: relative;
+    left: 50px;
+    bottom: 225px;
 }
 
 h1,
@@ -35,12 +41,15 @@ p {
 section {
     width: 495px;
     float: left;
+    height: 275px;
 }
 
 aside {
     float: right;
+    width: 340px;
+    height: 275px;
 }
 
 footer {
-    clear: both;
+    clear: both
 }
