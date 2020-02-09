@@ -12,11 +12,18 @@ Section,
 Aside,
 Footer {
     background-color: #ebebeb;
+    text-align: center;
+    padding: 20px;
+    border: 10px;
+    margin: 10px;
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    width: 400px;
+    text-align: center;
+    height: 300px;
 }
 
 h1,
@@ -27,4 +34,13 @@ p {
 
 section {
     width: 495px;
+    float: left;
+}
+
+aside {
+    float: right;
+}
+
+footer {
+    clear: both;
 }
